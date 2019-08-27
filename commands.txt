@@ -1,0 +1,5 @@
+Viewing number of unpushed Git commits
+--------------------------------------
+git log --branches --not --remotes --pretty=oneline | wc -l
+
+
